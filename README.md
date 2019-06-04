@@ -16,7 +16,8 @@ Import the package
 Define the component:
 
 ```js
-	Vue.directive(Scroll);
+import Vue from 'vue';
+Vue.directive(Scroll);
 ```
 
 Use the component with default values:
