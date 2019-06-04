@@ -1,6 +1,6 @@
 {
 	"name": "@sil/scroll",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"main": "dist/sil-scroll.umd.js",
 	"module": "dist/sil-scroll.esm.js",
 	"unpkg": "dist/sil-scroll.min.js",
