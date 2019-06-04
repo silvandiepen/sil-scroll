@@ -43,7 +43,7 @@ the function you use, will be given back the event and the element its using. `(
 
 This function can for instance be set on an element to check where it is on the page. Based on that you can set classes or do anything else.
 
-```
+```html
 	<template>
 		<div class="container">
 			<section v-scroll="handleScroll" ></section>
@@ -54,7 +54,7 @@ This function can for instance be set on an element to check where it is on the 
 	</template>
 ```
 
-```
+```js
 export default{
 	methods: {
 		handleScroll(evt, el) {
