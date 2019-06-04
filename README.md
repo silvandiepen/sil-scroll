@@ -80,4 +80,4 @@ export default{
 		 // Function will be the same but not immediately invoked.
 	</div>
 </template>
-```
+```
