@@ -25,7 +25,7 @@ export default {
 			if (binding.value(evt, el)) {
 				settings.element.removeEventListener('scroll', func);
 				el.$destroy = () => settings.element.removeEventListener('scroll', func);
-			} else if(setting.fn){
+			} else if(settings.fn){
 				settings.element.removeEventListener('scroll', settings.fn);
 				el.$destroy = () => settings.element.removeEventListener('scroll',  settings.fn);			
 			}
